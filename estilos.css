@@ -1,0 +1,131 @@
+body{
+	background: #000;
+	font-family: "Agency FB", Helvetica, Arial;
+	color: #fff;
+}
+#contenedor{
+	max-width: 350px;
+	min-width: 100px;
+	margin: 0px auto 0px auto;
+}
+header{
+	max-width: 560px;
+	margin: auto;
+}
+.video{
+	height: 200px;
+	width: 100%;
+	max-width: 400px;
+	padding-top: 20.25%;
+	position: relative;
+}
+.video iframe{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top:0px;
+	left: 0px;
+}
+
+.menu{
+	border: 1px solid #fff; 
+	text-align: center;
+}
+
+.menu h3{
+	margin-bottom: 2px; 
+}
+
+.opc1{
+	background-image: url(img/piedra_desc.png.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100px; 
+	height: 104px; 
+	display: inline-block;
+}
+
+.opc1:hover{
+		background-image: url(img/piedra_act.png.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100px;
+		height: 104px;
+		display: inline-block;
+		cursor: pointer;
+}
+
+.opc2{
+	background-image: url(img/papel_desc.png.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100px; 
+	height: 104px; 
+	display: inline-block;
+}
+.opc2:hover{
+		background-image: url(img/papel_act.png.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 100px; 
+		height: 104px; 
+		display: inline-block;
+		cursor: pointer;
+}	
+
+.opc3{
+	background-image: url(img/tijera_desc.png.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100px; 
+	height: 104px; 
+	display: inline-block;
+}
+.opc3:hover{
+	background-image: url(img/tijera_act.png.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100px; 
+	height: 104px; 
+	display: inline-block;
+	cursor: pointer;
+}
+.tit_cuerpo{
+	margin-top: 2px;
+	margin-bottom: 1px;
+}
+
+.juego{
+	border: 1px dashed #ccc;
+	width: 100%;
+}
+
+.mostrador{
+	display: inline-block;
+	padding-left: 5px;
+	width: 50%;
+}
+
+.mostrador span{
+	display: block;
+	margin-bottom: 0px;
+}
+
+#eleccion{
+	font-size: 28px;
+	color: rgba(26, 136, 28, 1);
+}
+
+#maq_eleccion{
+	font-size: 28px;
+	color: rgba( 200, 67, 67, 1);
+}
+
+#resultado{
+	text-align: center;
+	width: 100px;
+	float: right;;
+	border: 1px solid rgba(83, 83, 83, 0.65);
+	color: red;
+	font-size: 18px;
+}
